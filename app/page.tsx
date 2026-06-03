@@ -24,7 +24,7 @@ export default function Home() { /* Render format of page here, update state var
   }, [currentPage])
 
   return (
-    <main>
+    <main className="h-full w-full">
 
       <MainWindow currentPage={currentPage}/>
 
