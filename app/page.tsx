@@ -7,9 +7,8 @@ import TopNavButton from "../components/TopNavButton";
 
 import { useState, useEffect } from "react";
 
-import 'react'
-
 /* Allows use of "command" and "commandFor" actions of html button elements (TypeScript compilation jank) */
+import 'react'
 declare module 'react' {
   interface ButtonHTMLAttributes<T> extends HTMLAttributes<T> {
     commandFor?: string
@@ -17,8 +16,17 @@ declare module 'react' {
   }
 }
 
+import type { Viewport } from 'next';
+export const viewport: Viewport = {
+  width: 'device-width',
+  height: 'device-height',
+  initialScale: 1
+}
+
+
 export default function Home() { /* Render format of page here, update state variable which selects which component to render based on button pressed */
   const [currentPage, setCurrentPage] = useState(0);
+  
 
   useEffect(() => {
     console.log("Current page: " + currentPage);
