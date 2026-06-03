@@ -20,12 +20,6 @@ export default function ProjectsContent() {
             <ProjectCard image1="/images/Proj-Brain-OuterBrain.png" image1W={2056} image1H={936} image2="/images/Proj-Brain-WhiteMatter.png" image2W={2058} image2H={934} image3="/images/Proj-Brain-InnerBrain.png" image3W={2060} image3H={932} title="3D Brain Modeling" description="Under Dr. Allison Howard of the UGA Department of Psychology, I was hired to develop a bash script that automizes the process of turning brain mri results into seperable 3D models. These models were intended to be used in a VR application developed by my lab partner that would allow students to upload mri data and then view and learn from the resulting 3D model." description2="I’ve recently made a Windows capatible version of the script and am currently working on finishing the VR application." description3=""/>
             <ProjectCard image1="/images/Proj-DO-Title.png" image1W={1702} image1H={954} image2="/images/Proj-DO-Enemies.png"  image2W={1702} image2H={960} image3="/images/Proj-DO-Map.png" image3W={1706} image3H={952} title="Decked Out" description="In my second semester at the University of Georgia’s Game Builders Club, I was drafted as an Environment and Weapons Programmer for the shooter/rogue-like Decked Out. In Decked Out, you defeat ever-increasing numbers of enemies in waves while earning money you can spend on upgrades for your movement and attack. " description2="I created the ammo system, weapon switching, and implemented the UI elements for the game." description3="https://github.com/unorthodoxbox/DeckedOut"/>
             <ProjectCard image1="/images/Proj-RF-Map.png" image1W={1520} image1H={850} image2="/images/Proj-RF-Battle.png" image2W={1514} image2H={846} image3="/images/Proj-RF-Event.png" image3W={1514} image3H={840} title="Royal Flush" description='I was a general programmer for the roguelike/deckbuilding game “Royal Flush” through the University of Georgia’s Game Builders Club. In the game, you progress through the levels of a casino in order to defeat the boss at the very top, encountering battles, random events, and shops along the way.' description2="I created the event system, the enemy spawning system, and the randomly and procedurally generating map (seen in the first picture above)." description3="https://github.com/AndyDaBeast6045/RoyalFlush"/>
-
-            {/* <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard /> */}
         </div>
     )
 }

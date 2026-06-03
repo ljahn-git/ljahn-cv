@@ -30,6 +30,7 @@ export default function HomeContent({ currentPage }: HomeContentProps) {
                 </div>
             </div>
             
+            {/* Rendered when width is sm (makes format a singular column) */}
             <div className="flex flex-col text-xl">
                 <div className="h-auto md:hidden grid sm:grid-cols-2 sm:mb-4 justify-center">
                     <div className="relative justify-center flex h-full w-full object-scale-down sm:p-0 p-30">
