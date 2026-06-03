@@ -10,7 +10,7 @@ type MainWindowProps = {
 }
 export default function MainWindow({ currentPage }: MainWindowProps) {
     return(
-        <div className="flex h-screen justify-center items-center bg-red-400 min-h-[100vh] min-h-[100svh] min-h-[100dvh]">
+        <div className="flex h-screen justify-center items-center min-h-[100vh] min-h-[100svh] min-h-[100dvh]">
             <div className={`overflow-y-scroll z-10 animate-move-up sm:w-4/5 w-full h-4/5 sm:m-8 m-2 sm:px-8 px-2 py-9 bg-white border border-8 rounded-4xl 2xl:border-red-500 xl:border-black lg:border-green-500 md:border-yellow-300 sm:border-red-500 sm:mb-2 mb-20`}> {/*${currentPage == 0 ? "border-red-300" : ""} */}
             
             {currentPage == 0 ? <HomeContent currentPage={currentPage}/> : 
