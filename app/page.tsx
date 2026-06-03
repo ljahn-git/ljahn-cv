@@ -9,6 +9,7 @@ import { useState, useEffect } from "react";
 
 import 'react'
 
+/* Allows use of "command" and "commandFor" actions of html button elements (TypeScript compilation jank) */
 declare module 'react' {
   interface ButtonHTMLAttributes<T> extends HTMLAttributes<T> {
     commandFor?: string
