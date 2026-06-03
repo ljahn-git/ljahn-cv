@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+    --animate-move-up: fade-in 2.0s ease-out;
+
+    @keyframes fade-in {
+        from { transform: translate(1.5rem, 1.5rem); }
+        to { transform: translate(0, 0); }
+    }
+}
+
+/* TYPEWRITER EFFECT */
+.typewriter { /* Something elongating the width of h1? Margin?*/
+    overflow: hidden;
+    border-right: .15em solid #FFA2A2;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .05em;
+    animation:
+        typing 2.5s steps(18, end),
+        blink-caret 1.25s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #FFA2A2 }
+}
+
+/* Tutorial for reference: https://css-tricks.com/snippets/css/typewriter-effect/ */
