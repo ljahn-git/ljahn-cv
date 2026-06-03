@@ -17,6 +17,14 @@ export const metadata: Metadata = {
   description: "The Online CV of Leo Jahn",
 };
 
+import type { Viewport } from 'next';
+export const viewport: Viewport = {
+  width: 'device-width',
+  height: 'device-height',
+  viewportFit: 'cover',
+  initialScale: 1
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{

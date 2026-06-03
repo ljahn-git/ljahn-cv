@@ -16,13 +16,7 @@ declare module 'react' {
   }
 }
 
-import type { Viewport } from 'next';
-export const viewport: Viewport = {
-  width: 'device-width',
-  height: 'device-height',
-  viewportFit: 'cover',
-  initialScale: 1
-}
+
 
 
 export default function Home() { /* Render format of page here, update state variable which selects which component to render based on button pressed */
