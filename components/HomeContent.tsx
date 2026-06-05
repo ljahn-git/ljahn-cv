@@ -56,24 +56,21 @@ export default function HomeContent({ currentPage }: HomeContentProps) {
                     <p className="flex flex-nowrap whitespace-nowrap items-center text-center mr-4">My name is </p> <span className="flex"><h1 className={`${'typewriter'} m-0 w-auto italic text-3xl xl:text-9xl lg:text-8xl md:text-7xl sm:text-6xl`}>Leo Jahn</h1></span> {/* After page load replace with normal text? */}
                 </div>
                 <p className="mb-4">and I'm a 22 year old programmer/developer based out of Athens, Georgia.</p> <br/>
-                <p className="mb-4">I enjoy working on a little bit of everything, including React websites (like this one!), video games in Unity, and relational and document-oriented
-                    databases. Specifically, I'd define my skills like this:
+                <p className="mb-4">Currently, I'm a student at the University of Georgia studying Computer Science and Music.
+                    In my free time, I enjoy practicing my violin, playing videogames, and making projects like this website!
                 </p>
                 <br/>
 
-                <p>Frontend:</p>
+                <p>I'd define my skills as follows:</p>
+                <p>Proficient:</p>
                 <ul className="list-disc">
-                    <li className="ml-8">HTML, CSS, Javascript (React)</li>
+                    <li className="ml-8">HTML, CSS, Javascript/React, Java</li>
                 </ul>
-                <p>Backend:</p>
+                <p>Intermediate:</p>
                 <ul className="list-disc">
-                    <li className="ml-8">Java, C/C++/C#, Python</li>
+                    <li className="ml-8">C/C++/C#, Python, SQL</li>
                 </ul>
-                <p>Database:</p>
-                <ul className="list-disc">
-                    <li className="ml-8">SQL, MongoDB</li>
-                </ul>
-
+                
                 <br/>
                 <p className="mt-4">I'm always open to opportunities, so feel free to reach out to me via <a className="text-red-300 underline"href="mailto:ljahn724@gmail.com">email</a>!</p>
             </div>
