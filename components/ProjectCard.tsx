@@ -20,7 +20,7 @@ type ProjectCardTypes = {
 export default function ProjectCard({image1, image1H, image1W, image2, image2W, image2H, image3, image3W, image3H, title, description, description2, description3}: ProjectCardTypes) {
     return(
         <div>
-        <button command="show-modal" commandfor={title} className="flex flex-col overflow-hidden h-full w-full border border-4 rounded-4xl border-black hover:border-red-300 bg-black cursor-pointer bg-white shadow-xl hover:bg-red-300 ">
+        <button command="show-modal" commandFor={title} className="flex flex-col overflow-hidden h-full w-full border border-4 rounded-4xl border-black hover:border-red-300 bg-black cursor-pointer bg-white shadow-xl hover:bg-red-300 ">
             <div className="flex flex-col h-full w-full overflow-hidden justify-center border-b-4 ">
                 {/* <p>Projects Card 1</p>
                 <p>2-3 images that are cut off by the border. Card scales a bit when hovered over.</p> */}
