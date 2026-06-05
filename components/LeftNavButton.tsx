@@ -14,10 +14,10 @@ export default function LeftNavButton({ currentPage, onClick }: LeftNavButtonPro
             </button> : <></>}
             
             {/* Rendered when page width is below sm */}
-            {currentPage == 0 ? <button onClick={onClick} className="border-t-2 border-b-2 block sm:hidden absolute bottom-0 left-0 w-1/4 h-12 flex p-1 items-center justify-center cursor-pointer hover:bg-red-300 font-bold hover:italic hover:border-t-2 hover:border-r-2 border-black">
+            {currentPage == 0 ? <button onClick={onClick} className="border-t-2 border-b-2 block sm:hidden absolute bottom-0 left-0 w-1/4 h-12 flex p-1 items-center justify-center cursor-pointer bg-red-300 font-bold hover:italic border-black">
                 <p>&lt;PROJ&lt;</p>
             </button> : 
-                currentPage == 3 ? <button onClick={onClick} className="block sm:hidden absolute bottom-0 left-0 right-0 w-full h-12 flex p-1 items-center justify-center cursor-pointer hover:bg-red-300 font-bold hover:italic hover:border-t-2 border-black">
+                currentPage == 3 ? <button onClick={onClick} className="border-t-2 border-b-2 block sm:hidden absolute bottom-0 left-0 right-0 w-full h-12 flex p-1 items-center justify-center cursor-pointer bg-red-300 font-bold hover:italic border-black">
                 <p>&lt;HOME&lt;</p>
             </button> : <></>}
         </div>

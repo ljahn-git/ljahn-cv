@@ -11,7 +11,7 @@ export default function TopNavButton({ currentPage, onClick }: TopNavButtonProps
         </button> : <></>}
 
         {/* Rendered when page width is below sm */}
-        {currentPage == 2 ? <button onClick={onClick} className="block sm:hidden absolute bottom-0 left-0 right-0 w-full h-12 flex p-1 items-center justify-center cursor-pointer hover:bg-red-300 font-bold hover:italic hover:border-t-2 border-black">
+        {currentPage == 2 ? <button onClick={onClick} className="border-t-2 border-b-2 block sm:hidden absolute bottom-0 left-0 right-0 w-full h-12 flex p-1 items-center justify-center cursor-pointer bg-red-300 font-bold hover:italic border-black">
         <p className="mx-1">&uarr;</p> <p className="mx-1">HOME</p> <p className="mx-1">&uarr;</p>
         </button> : <></>}
         </div>

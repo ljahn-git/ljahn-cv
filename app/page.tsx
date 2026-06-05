@@ -11,7 +11,7 @@ import { useState, useEffect } from "react";
 import 'react'
 declare module 'react' {
   interface ButtonHTMLAttributes<T> extends HTMLAttributes<T> {
-    commandFor?: string
+    commandfor?: string
     command?: string
   }
 }
