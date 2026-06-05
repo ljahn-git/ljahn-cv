@@ -52,10 +52,10 @@ export default function ProjectModal({image1, image1H, image1W, image2, image2W,
                     </div>
 
                     {/* Descriptive text below images */}
-                    <div className="flex-col whitespace-pre-wrap text-xl">
+                    <div className="flex-col whitespace-normal text-xl">
                         <p>{description}</p>
                         {description2 ? <p className="mt-4">{description2}</p> : <></>}
-                        {description3 ? <p className="mt-4">GitHub: <Link target="_blank" className="text-red-300 underline whitespace-pre-wrap"href={description3}>{description3}</Link></p> : <></>}
+                        {description3 ? <p className="mt-4 whitespace-normal break-all">GitHub: <Link target="_blank" className="text-red-300 underline whitespace-normal break-all"href={description3}>{description3}</Link></p> : <></>}
                     </div>
                 
                 </div>
