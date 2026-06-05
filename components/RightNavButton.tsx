@@ -14,7 +14,7 @@ export default function RightNavButton({ currentPage, onClick }: RightNavButtonP
                 </button> : <></>}
 
             {/* Rendered when page width is below sm */}
-            {currentPage == 0 ? <button onClick={onClick} className="block sm:hidden absolute bottom-0 left-3/4 w-1/4 h-12 flex flex-col p-1 items-center justify-center cursor-pointer hover:bg-red-300 font-bold hover:italic hover:border-t-2 hover:border-l-2 border-black">
+            {currentPage == 0 ? <button onClick={onClick} className="border-t-2 border-b-2 block sm:hidden absolute bottom-0 left-3/4 w-1/4 h-12 flex flex-col p-1 items-center justify-center cursor-pointer hover:bg-red-300 font-bold hover:italic hover:border-t-2 hover:border-l-2 border-black">
                 <p>&gt;EXP&gt;</p>
                 </button> : 
                 currentPage == 1 ? <button onClick={onClick} className="block sm:hidden absolute bottom-0 left-0 right-0 w-full h-12 flex flex-col p-1 items-center justify-center cursor-pointer hover:bg-red-300 font-bold hover:italic hover:border-t-2 border-black">
