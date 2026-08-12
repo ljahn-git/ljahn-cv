@@ -7,7 +7,8 @@ export default function ExperiencesContent() {
             <Link target="_blank" href="https://www.lavnercampsandprograms.com/" className="flex flex-col p-4 mb-4 border border-red-300 border-4 rounded-2xl shadow-lg hover:bg-red-300 hover:cursor-pointer">
                 <h1><p className="font-bold inline">STEM Instructor</p> - Lavner Education - (<p className="italic inline">June 2026 - July 2026</p>)</h1>
                 <ul className="list-disc list-inside ml-4">
-                    <li className="-indent-8 pl-8">Currently teaching and introducing kids to different STEM fields, with a current emphasis on 3D Modeling and Printing</li>
+                    <li className="-indent-8 pl-8">Taught kids age 6-15 about AI, app development, 3D modeling, and 3D printing.</li>
+                    <li className="-indent-8 pl-8">Assisted and supervised a rotating cast of kids every week, each with their own unique challenges and triumphs.</li>
                 </ul>
             </Link>
 
