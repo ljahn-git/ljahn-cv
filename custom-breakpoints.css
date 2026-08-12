@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@media (height <= 600px) {
+    #shadow-main-window {
+        display: none;
+    }
+}
+
+@media (height <= 400px) {
+    #main-window {
+        /* border-color: red; */
+        height: 60%;
+    }
+}

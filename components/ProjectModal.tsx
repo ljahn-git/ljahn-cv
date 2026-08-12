@@ -27,23 +27,23 @@ export default function ProjectModal({image1, image1H, image1W, image2, image2W,
                         <p className="text-3xl items-center font-bold">{title}</p>
                         <button className="h-auto px-2 border-2 border-black items-center cursor-pointer hover:text-red-300 hover:border-red-300" commandFor={title} command="close">X</button>
                     </div>
-                    <div className="md:grid grid-cols-3 gap-3 mb-4">
+                    <div className="md:grid grid-cols-3 gap-3 mb-4 h-50">
                         <button command="show-modal" commandFor={image1} className="cursor-pointer overflow-hidden border-4 rounded-4xl border-black hover:border-red-300 md:mb-0 mb-4">
-                            <Image className="h-full w-full "
+                            <Image className="object-cover h-full w-full"
                                 src={image1}
                                 height={image1H}
                                 width={image1W}
                                 alt="Project Image"/>
                         </button>
                         <button command="show-modal" commandFor={image2} className="cursor-pointer overflow-hidden border-4 rounded-4xl border-black hover:border-red-300 md:mb-0 mb-4">
-                            <Image className="h-full w-full border-2 border-black"
+                            <Image className="object-cover h-full w-full border-2 border-black"
                                 src={image2}
                                 height={image2H}
                                 width={image2W}
                                 alt="Project Image"/> 
                         </button>
                         <button command="show-modal" commandFor={image3} className="cursor-pointer overflow-hidden border-4 rounded-4xl border-black hover:border-red-300 md:mb-0 mb-4">
-                            <Image className="h-full w-full border-2 border-black"
+                            <Image className="object-cover h-full w-full border-2 border-black"
                                 src={image3}
                                 height={image3H}
                                 width={image3W}

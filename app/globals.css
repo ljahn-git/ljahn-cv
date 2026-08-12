@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant sm-h (@media (min-height: 300px));
+
 :root {
   --background: #FF6467;
   --foreground: #171717;
